@@ -6,10 +6,11 @@
 # print(nomeFormatado)
 
 # Ex2:
-# texto = "Python é muito interessante"
-# palavras = texto.split()
-# textoInvertido = " ".join(palavras[::-1])
-# print(textoInvertido)
+texto = "Python é muito interessante"
+palavras = texto.split()
+print(palavras)
+textoInvertido = " ".join(palavras[::-1])
+print(textoInvertido)
 
 # Ex3:
 texto1 = "arara"
@@ -20,8 +21,8 @@ texto1_format = texto1.lower().replace(" ", "")
 texto2_format = texto2.lower().replace(" ", "")
 
 # Verifica se texto orgiinal é igual ao seu reverso
-palindromo1 = texto1_format == texto1[::-1]
-palindromo2 = texto2_format == texto2[::-1]
+palindromo1 = texto1_format == texto1_format[::-1]
+palindromo2 = texto2_format == texto2_format[::-1]
 
 print(palindromo1)
 print(palindromo2)

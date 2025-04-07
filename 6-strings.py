@@ -15,3 +15,4 @@ print(movieDescription)
 # 2- Procurar uma palavra dentro de um texto
 print("Top" in movieName)
 print("ação" in movieName)
+print("ação" in movieDescription)

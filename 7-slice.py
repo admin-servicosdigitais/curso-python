@@ -24,3 +24,6 @@ print(movieName[1::2])
 
 # 6 - Inverter uma string de trás pra frente
 print(movieName[::-1])
+
+# 7 - Buscar a última letra
+print(movieName[-1])
