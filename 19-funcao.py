@@ -4,6 +4,7 @@ def welcome():
     
 # for i in range(10):
 #     welcome()
+
 # 2 - Função para calcular a média de notas
 def calculate_average():
     num_ratings = int(input("Digite quantas avaliações deseja fazer pro filme:\n"))
